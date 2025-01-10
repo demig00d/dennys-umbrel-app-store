@@ -1,6 +1,6 @@
 services:
   web:
-    image: ghcr.io/hoarder-app/hoarder:0.18.0@sha256:a49249cd3d4966f1c41a2eb6d9b30e5564d769ffe65ee804859efd696159930b #Version in .env?
+    image: ghcr.io/hoarder-app/hoarder:0.21.0sha256:0fa320ade5d8f93195155e6df9f73f2ebd4176fe23210723a2d940c4715088f3 #Version in .env?
     container_name: Hoarder
     restart: on-failure
     volumes:
