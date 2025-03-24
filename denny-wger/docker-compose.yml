@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: denny-wger_web_1
+      APP_PORT: 80
+  web:
+    image: wger/demo:2.3-dev@sha256:280fa2239da27dcb0c4e0d13ebe929a059b2c5f5ef707dc625931ed870d10ae4
+    restart: on-failure
